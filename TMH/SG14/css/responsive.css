@@ -1,0 +1,41 @@
+/* MEDIA QUERIES */
+
+/* Responsify Defaults */
+
+@media screen and (max-width: 768px){
+  nav .span4{
+    width: 100%;
+  }
+
+  .span8, article{
+    width: 100%;
+  }
+
+  .span4, aside{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #container, .inner{
+    width: 90%;
+    padding: 0 5% 0 5%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  nav ul li{
+    width: 100%;
+    margin: 0 0 5px 0;
+  }
+
+  nav a{
+    margin: 0;
+    padding: 14px 0 14px 0;
+  }
+}
+
+/* Custom Breakpoints */
+
+@media screen and (max-width: px) {
+ /* Add your styles for devices with a maximum width of  */
+}
